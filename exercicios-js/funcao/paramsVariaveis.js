@@ -1,7 +1,7 @@
 function soma() {
     let soma = 0
-    for (i in arguments) {
-        soma += arguments[i]
+    for (i in arguments) { // argumenos é um array com todos os argumentos da função
+        soma += arguments[i] // parâmetros ficam dinâmicos, são inseridos conforme a função é chamada
     }
     return soma
 }
